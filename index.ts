@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk"
 import showBanner from "node-banner"
@@ -5,7 +6,7 @@ import showBanner from "node-banner"
 let score = 0;
 let play = true;
 (async () => {
-    await showBanner('Guessing Game', 'This is a suitable tagline' ,"green" );
+    await showBanner('Guessing Game', 'Guess number and win' ,"green" );
 })();
 
 async function GuessingNumber (){
